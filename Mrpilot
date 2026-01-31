@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrPilot | Flight Simulator & Aviation</title>
+    <meta name="description" content="MrPilot - Flight Simulator Live Streams, Aviation Content, MSFS 2024 Flights">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b132b;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(90deg, #1c2541, #3a86ff);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        nav {
+            background: #1c2541;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #3a86ff;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #3a86ff;
+            margin-bottom: 15px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1c2541;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #1c2541;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        .btn {
+            display: inline-block;
+            background: #3a86ff;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #5fa8ff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>✈️ MrPilot</h1>
+    <p>Flight Simulator Live Streams | Aviation Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#streams">Live Streams</a>
+    <a href="#routes">Flight Routes</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Welcome! I’m <strong>MrPilot</strong>, an aviation enthusiast and flight simulator streamer.
+        I fly realistic routes using MSFS 2024, PMDG, Fenix, and VATSIM.
+        Join me for realistic landings, cockpit views, and live ATC.
+    </p>
+</section>
+
+<section id="streams">
+    <h2>Live Streams</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🛫 MSFS 2024</h3>
+            <p>Realistic airline operations with live traffic & weather.</p>
+        </div>
+        <div class="card">
+            <h3>🎧 VATSIM Flights</h3>
+            <p>Online ATC, real procedures, real routes.</p>
+        </div>
+        <div class="card">
+            <h3>🛬 Challenging Airports</h3>
+            <p>Short runways, mountain approaches & bad weather.</p>
+        </div>
+    </div>
+</section>
+
+<section id="routes">
+    <h2>Popular Routes</h2>
+    <ul>
+        <li>Dubai ✈️ Catania</li>
+        <li>Tokyo ✈️ Osaka</li>
+        <li>Manila ✈️ Macao</li>
+        <li>Skardu Special Approach</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Connect With Me</h2>
+    <p>Follow & support my aviation journey:</p>
+    <a class="btn" href="https://www.youtube.com/@MrPilotttt" target="_blank">YouTube</a>
+    <a class="btn" href="#" target="_blank">TikTok</a>
+    <a class="btn" href="#" target="_blank">Facebook</a>
+</section>
+
+<footer>
+    © 2026 MrPilot | All Rights Reserved
+</footer>
+
+</body>
+</html>
